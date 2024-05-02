@@ -43,7 +43,7 @@ BUILD_OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o)
 BUILD_OBJSA = $(ASRCS:%.S=$(OBJ_DIR)/%.o)
 OBJS = $(BUILD_OBJSA) $(BUILD_OBJS) $(EXT_OBJS)
 
-DTB ?= sun8i-t113-mangopi-dual.dtb
+DTB ?= sun8i-t113-embedig-gateway.dtb
 KERNEL ?= zImage
 
 all: git begin build mkboot
