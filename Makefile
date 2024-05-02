@@ -31,7 +31,7 @@ HOSTSTRIP=strip
 
 MAKE=make
 
-DTB ?= sun8i-t113-mangopi-dual.dtb
+DTB ?= sun8i-t113-embedig-gateway.dtb
 KERNEL ?= zImage
 
 all: git begin build mkboot
